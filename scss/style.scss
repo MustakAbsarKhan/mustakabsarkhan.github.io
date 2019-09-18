@@ -1,0 +1,51 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 156, 0.7);
+$body-bg: #fff;
+body{
+  background: $body-bg;
+}
+.navbar{
+  box-shadow: 2px 2px 5px $primary;
+  background: #F8F8F8;
+  opacity: 0.9;
+  .nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+
+    .nav-link{
+      color: #252525;
+    }
+    .nav-link:hover{
+      color: $primary;
+    }
+  }
+}
+
+.navbar .navbar-brand{
+  font-size:2.05rem;
+  color: $primary;
+}
+.navbar .navbar-brand:hover{
+  font-size:2.08rem;
+  transition: 0.50s;
+}
+
+#portfolio{
+  background: #fff center top;
+  margin-top: 90px;
+  background-size: cover;
+  min-height: 500px;
+  }
+
+#skillbar{
+  .container{
+    height: 890px;
+    width: 80%;
+    border:3px double $primary-overlay;
+  }
+}
+
+#footer{
+  height:150px;
+  width: auto;
+}

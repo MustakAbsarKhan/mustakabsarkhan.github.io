@@ -1,0 +1,37 @@
+body {
+  background: #fff; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #F8F8F8;
+  opacity: 0.9; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+
+.navbar .navbar-brand {
+  font-size: 2.05rem;
+  color: #3292a6; }
+
+.navbar .navbar-brand:hover {
+  font-size: 2.08rem;
+  transition: 0.50s; }
+
+#portfolio {
+  background: #fff center top;
+  margin-top: 90px;
+  background-size: cover;
+  min-height: 500px; }
+
+#skillbar .container {
+  height: 890px;
+  width: 80%;
+  border: 3px double rgba(50, 146, 156, 0.7); }
+
+#footer {
+  height: 150px;
+  width: auto; }
